@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79B82D4A154DF7A2009DF3FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B82D49154DF7A2009DF3FB /* UIKit.framework */; };
+		79B82D4C154DF7A2009DF3FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B82D4B154DF7A2009DF3FB /* Foundation.framework */; };
+		79B82D4E154DF7A2009DF3FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B82D4D154DF7A2009DF3FB /* CoreGraphics.framework */; };
+		79B82D54154DF7A2009DF3FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D52154DF7A2009DF3FB /* InfoPlist.strings */; };
+		79B82D56154DF7A2009DF3FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B82D55154DF7A2009DF3FB /* main.m */; };
+		79B82D5A154DF7A2009DF3FB /* BeautifulMapsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B82D59154DF7A2009DF3FB /* BeautifulMapsAppDelegate.m */; };
+		79B82D5C154DF7A2009DF3FB /* Beautiful Maps.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D5B154DF7A2009DF3FB /* Beautiful Maps.entitlements */; };
+		79B82D5F154DF7A2009DF3FB /* BeautifulMapsRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B82D5E154DF7A2009DF3FB /* BeautifulMapsRootViewController.m */; };
+		79B82D62154DF7A2009DF3FB /* BeautifulMapsDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B82D61154DF7A2009DF3FB /* BeautifulMapsDataViewController.m */; };
+		79B82D65154DF7A2009DF3FB /* BeautifulMapsModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B82D64154DF7A2009DF3FB /* BeautifulMapsModelController.m */; };
+		79B82D68154DF7A2009DF3FB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D66154DF7A2009DF3FB /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79B82D45154DF7A2009DF3FB /* Beautiful Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beautiful Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B82D49154DF7A2009DF3FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79B82D4B154DF7A2009DF3FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79B82D4D154DF7A2009DF3FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79B82D51154DF7A2009DF3FB /* Beautiful Maps-Info.plist */ = {isa = PBXFileReference; path = "Beautiful Maps-Info.plist"; sourceTree = "<group>"; };
+		79B82D53154DF7A2009DF3FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79B82D55154DF7A2009DF3FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79B82D57154DF7A2009DF3FB /* Beautiful Maps-Prefix.pch */ = {isa = PBXFileReference; path = "Beautiful Maps-Prefix.pch"; sourceTree = "<group>"; };
+		79B82D58154DF7A2009DF3FB /* BeautifulMapsAppDelegate.h */ = {isa = PBXFileReference; path = BeautifulMapsAppDelegate.h; sourceTree = "<group>"; };
+		79B82D59154DF7A2009DF3FB /* BeautifulMapsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulMapsAppDelegate.m; sourceTree = "<group>"; };
+		79B82D5B154DF7A2009DF3FB /* Beautiful Maps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Beautiful Maps.entitlements"; sourceTree = "<group>"; };
+		79B82D5D154DF7A2009DF3FB /* BeautifulMapsRootViewController.h */ = {isa = PBXFileReference; path = BeautifulMapsRootViewController.h; sourceTree = "<group>"; };
+		79B82D5E154DF7A2009DF3FB /* BeautifulMapsRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulMapsRootViewController.m; sourceTree = "<group>"; };
+		79B82D60154DF7A2009DF3FB /* BeautifulMapsDataViewController.h */ = {isa = PBXFileReference; path = BeautifulMapsDataViewController.h; sourceTree = "<group>"; };
+		79B82D61154DF7A2009DF3FB /* BeautifulMapsDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulMapsDataViewController.m; sourceTree = "<group>"; };
+		79B82D63154DF7A2009DF3FB /* BeautifulMapsModelController.h */ = {isa = PBXFileReference; path = BeautifulMapsModelController.h; sourceTree = "<group>"; };
+		79B82D64154DF7A2009DF3FB /* BeautifulMapsModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulMapsModelController.m; sourceTree = "<group>"; };
+		79B82D67154DF7A2009DF3FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79B82D42154DF7A2009DF3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B82D4A154DF7A2009DF3FB /* UIKit.framework in Frameworks */,
+				79B82D4C154DF7A2009DF3FB /* Foundation.framework in Frameworks */,
+				79B82D4E154DF7A2009DF3FB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79B82D3A154DF7A2009DF3FB = {
+			isa = PBXGroup;
+			children = (
+				79B82D4F154DF7A2009DF3FB /* Beautiful Maps */,
+				79B82D48154DF7A2009DF3FB /* Frameworks */,
+				79B82D46154DF7A2009DF3FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79B82D46154DF7A2009DF3FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79B82D45154DF7A2009DF3FB /* Beautiful Maps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79B82D48154DF7A2009DF3FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79B82D49154DF7A2009DF3FB /* UIKit.framework */,
+				79B82D4B154DF7A2009DF3FB /* Foundation.framework */,
+				79B82D4D154DF7A2009DF3FB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79B82D4F154DF7A2009DF3FB /* Beautiful Maps */ = {
+			isa = PBXGroup;
+			children = (
+				79B82D58154DF7A2009DF3FB /* BeautifulMapsAppDelegate.h */,
+				79B82D59154DF7A2009DF3FB /* BeautifulMapsAppDelegate.m */,
+				79B82D5D154DF7A2009DF3FB /* BeautifulMapsRootViewController.h */,
+				79B82D5E154DF7A2009DF3FB /* BeautifulMapsRootViewController.m */,
+				79B82D60154DF7A2009DF3FB /* BeautifulMapsDataViewController.h */,
+				79B82D61154DF7A2009DF3FB /* BeautifulMapsDataViewController.m */,
+				79B82D63154DF7A2009DF3FB /* BeautifulMapsModelController.h */,
+				79B82D64154DF7A2009DF3FB /* BeautifulMapsModelController.m */,
+				79B82D66154DF7A2009DF3FB /* MainStoryboard.storyboard */,
+				79B82D50154DF7A2009DF3FB /* Supporting Files */,
+			);
+			path = "Beautiful Maps";
+			sourceTree = "<group>";
+		};
+		79B82D50154DF7A2009DF3FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79B82D51154DF7A2009DF3FB /* Beautiful Maps-Info.plist */,
+				79B82D52154DF7A2009DF3FB /* InfoPlist.strings */,
+				79B82D55154DF7A2009DF3FB /* main.m */,
+				79B82D57154DF7A2009DF3FB /* Beautiful Maps-Prefix.pch */,
+				79B82D5B154DF7A2009DF3FB /* Beautiful Maps.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79B82D44154DF7A2009DF3FB /* Beautiful Maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B82D6B154DF7A2009DF3FB /* Build configuration list for PBXNativeTarget "Beautiful Maps" */;
+			buildPhases = (
+				79B82D41154DF7A2009DF3FB /* Sources */,
+				79B82D42154DF7A2009DF3FB /* Frameworks */,
+				79B82D43154DF7A2009DF3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beautiful Maps";
+			productName = "Beautiful Maps";
+			productReference = 79B82D45154DF7A2009DF3FB /* Beautiful Maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79B82D3C154DF7A2009DF3FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BeautifulMaps;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Zach Williams";
+			};
+			buildConfigurationList = 79B82D3F154DF7A2009DF3FB /* Build configuration list for PBXProject "Beautiful Maps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79B82D3A154DF7A2009DF3FB;
+			productRefGroup = 79B82D46154DF7A2009DF3FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79B82D44154DF7A2009DF3FB /* Beautiful Maps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79B82D43154DF7A2009DF3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B82D54154DF7A2009DF3FB /* InfoPlist.strings in Resources */,
+				79B82D5C154DF7A2009DF3FB /* Beautiful Maps.entitlements in Resources */,
+				79B82D68154DF7A2009DF3FB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79B82D41154DF7A2009DF3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B82D56154DF7A2009DF3FB /* main.m in Sources */,
+				79B82D5A154DF7A2009DF3FB /* BeautifulMapsAppDelegate.m in Sources */,
+				79B82D5F154DF7A2009DF3FB /* BeautifulMapsRootViewController.m in Sources */,
+				79B82D62154DF7A2009DF3FB /* BeautifulMapsDataViewController.m in Sources */,
+				79B82D65154DF7A2009DF3FB /* BeautifulMapsModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79B82D52154DF7A2009DF3FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79B82D53154DF7A2009DF3FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79B82D66154DF7A2009DF3FB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79B82D67154DF7A2009DF3FB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79B82D69154DF7A2009DF3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		79B82D6A154DF7A2009DF3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79B82D6C154DF7A2009DF3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Beautiful Maps/Beautiful Maps.entitlements";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beautiful Maps/Beautiful Maps-Prefix.pch";
+				INFOPLIST_FILE = "Beautiful Maps/Beautiful Maps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79B82D6D154DF7A2009DF3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Beautiful Maps/Beautiful Maps.entitlements";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beautiful Maps/Beautiful Maps-Prefix.pch";
+				INFOPLIST_FILE = "Beautiful Maps/Beautiful Maps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79B82D3F154DF7A2009DF3FB /* Build configuration list for PBXProject "Beautiful Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B82D69154DF7A2009DF3FB /* Debug */,
+				79B82D6A154DF7A2009DF3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79B82D6B154DF7A2009DF3FB /* Build configuration list for PBXNativeTarget "Beautiful Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B82D6C154DF7A2009DF3FB /* Debug */,
+				79B82D6D154DF7A2009DF3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79B82D3C154DF7A2009DF3FB /* Project object */;
+}
