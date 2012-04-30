@@ -18,6 +18,7 @@
 		79B82D62154DF7A2009DF3FB /* BeautifulMapsDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B82D61154DF7A2009DF3FB /* BeautifulMapsDataViewController.m */; };
 		79B82D65154DF7A2009DF3FB /* BeautifulMapsModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B82D64154DF7A2009DF3FB /* BeautifulMapsModelController.m */; };
 		79B82D68154DF7A2009DF3FB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D66154DF7A2009DF3FB /* MainStoryboard.storyboard */; };
+		79B82D6F154DF7EE009DF3FB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D6E154DF7EE009DF3FB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,20 +26,21 @@
 		79B82D49154DF7A2009DF3FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		79B82D4B154DF7A2009DF3FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		79B82D4D154DF7A2009DF3FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		79B82D51154DF7A2009DF3FB /* Beautiful Maps-Info.plist */ = {isa = PBXFileReference; path = "Beautiful Maps-Info.plist"; sourceTree = "<group>"; };
+		79B82D51154DF7A2009DF3FB /* Beautiful Maps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beautiful Maps-Info.plist"; sourceTree = "<group>"; };
 		79B82D53154DF7A2009DF3FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79B82D55154DF7A2009DF3FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		79B82D57154DF7A2009DF3FB /* Beautiful Maps-Prefix.pch */ = {isa = PBXFileReference; path = "Beautiful Maps-Prefix.pch"; sourceTree = "<group>"; };
-		79B82D58154DF7A2009DF3FB /* BeautifulMapsAppDelegate.h */ = {isa = PBXFileReference; path = BeautifulMapsAppDelegate.h; sourceTree = "<group>"; };
+		79B82D57154DF7A2009DF3FB /* Beautiful Maps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beautiful Maps-Prefix.pch"; sourceTree = "<group>"; };
+		79B82D58154DF7A2009DF3FB /* BeautifulMapsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautifulMapsAppDelegate.h; sourceTree = "<group>"; };
 		79B82D59154DF7A2009DF3FB /* BeautifulMapsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulMapsAppDelegate.m; sourceTree = "<group>"; };
 		79B82D5B154DF7A2009DF3FB /* Beautiful Maps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Beautiful Maps.entitlements"; sourceTree = "<group>"; };
-		79B82D5D154DF7A2009DF3FB /* BeautifulMapsRootViewController.h */ = {isa = PBXFileReference; path = BeautifulMapsRootViewController.h; sourceTree = "<group>"; };
+		79B82D5D154DF7A2009DF3FB /* BeautifulMapsRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautifulMapsRootViewController.h; sourceTree = "<group>"; };
 		79B82D5E154DF7A2009DF3FB /* BeautifulMapsRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulMapsRootViewController.m; sourceTree = "<group>"; };
-		79B82D60154DF7A2009DF3FB /* BeautifulMapsDataViewController.h */ = {isa = PBXFileReference; path = BeautifulMapsDataViewController.h; sourceTree = "<group>"; };
+		79B82D60154DF7A2009DF3FB /* BeautifulMapsDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautifulMapsDataViewController.h; sourceTree = "<group>"; };
 		79B82D61154DF7A2009DF3FB /* BeautifulMapsDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulMapsDataViewController.m; sourceTree = "<group>"; };
-		79B82D63154DF7A2009DF3FB /* BeautifulMapsModelController.h */ = {isa = PBXFileReference; path = BeautifulMapsModelController.h; sourceTree = "<group>"; };
+		79B82D63154DF7A2009DF3FB /* BeautifulMapsModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautifulMapsModelController.h; sourceTree = "<group>"; };
 		79B82D64154DF7A2009DF3FB /* BeautifulMapsModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulMapsModelController.m; sourceTree = "<group>"; };
 		79B82D67154DF7A2009DF3FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		79B82D6E154DF7EE009DF3FB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		79B82D3A154DF7A2009DF3FB = {
 			isa = PBXGroup;
 			children = (
+				79B82D6E154DF7EE009DF3FB /* README.md */,
 				79B82D4F154DF7A2009DF3FB /* Beautiful Maps */,
 				79B82D48154DF7A2009DF3FB /* Frameworks */,
 				79B82D46154DF7A2009DF3FB /* Products */,
@@ -166,6 +169,7 @@
 				79B82D54154DF7A2009DF3FB /* InfoPlist.strings in Resources */,
 				79B82D5C154DF7A2009DF3FB /* Beautiful Maps.entitlements in Resources */,
 				79B82D68154DF7A2009DF3FB /* MainStoryboard.storyboard in Resources */,
+				79B82D6F154DF7EE009DF3FB /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
