@@ -19,6 +19,9 @@
 		79B82D65154DF7A2009DF3FB /* BeautifulMapsModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B82D64154DF7A2009DF3FB /* BeautifulMapsModelController.m */; };
 		79B82D68154DF7A2009DF3FB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D66154DF7A2009DF3FB /* MainStoryboard.storyboard */; };
 		79B82D6F154DF7EE009DF3FB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D6E154DF7EE009DF3FB /* README.md */; };
+		79B82D7B154E13C1009DF3FB /* dfw.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D78154E13C1009DF3FB /* dfw.png */; };
+		79B82D7C154E13C1009DF3FB /* seoul.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D79154E13C1009DF3FB /* seoul.png */; };
+		79B82D7D154E13C1009DF3FB /* sf.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D7A154E13C1009DF3FB /* sf.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		79B82D64154DF7A2009DF3FB /* BeautifulMapsModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulMapsModelController.m; sourceTree = "<group>"; };
 		79B82D67154DF7A2009DF3FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		79B82D6E154DF7EE009DF3FB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		79B82D78154E13C1009DF3FB /* dfw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dfw.png; sourceTree = "<group>"; };
+		79B82D79154E13C1009DF3FB /* seoul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seoul.png; sourceTree = "<group>"; };
+		79B82D7A154E13C1009DF3FB /* sf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sf.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,9 @@
 		79B82D77154E12FA009DF3FB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				79B82D78154E13C1009DF3FB /* dfw.png */,
+				79B82D79154E13C1009DF3FB /* seoul.png */,
+				79B82D7A154E13C1009DF3FB /* sf.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -202,6 +211,9 @@
 				79B82D5C154DF7A2009DF3FB /* Beautiful Maps.entitlements in Resources */,
 				79B82D68154DF7A2009DF3FB /* MainStoryboard.storyboard in Resources */,
 				79B82D6F154DF7EE009DF3FB /* README.md in Resources */,
+				79B82D7B154E13C1009DF3FB /* dfw.png in Resources */,
+				79B82D7C154E13C1009DF3FB /* seoul.png in Resources */,
+				79B82D7D154E13C1009DF3FB /* sf.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

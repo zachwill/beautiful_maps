@@ -13,29 +13,29 @@
 @end
 
 @implementation BeautifulMapsDataViewController
+@synthesize imageView;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    self.dataLabel = nil;
+    NSString *city = [[self.dataObject description] lowercaseString];
+    NSString *imageName = [NSString stringWithFormat:@"%@.png", city];
+    self.imageView.image = [UIImage imageNamed:imageName];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    self.dataLabel.text = [self.dataObject description];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return YES;
+    return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
 
+- (void)viewDidUnload {
+    [self setImageView:nil];
+    [super viewDidUnload];
+}
 @end
