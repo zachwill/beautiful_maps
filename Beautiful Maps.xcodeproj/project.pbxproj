@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		797F30F9154E439B002EB3DD /* compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 797F30F8154E439B002EB3DD /* compass@2x.png */; };
 		79B82D4A154DF7A2009DF3FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B82D49154DF7A2009DF3FB /* UIKit.framework */; };
 		79B82D4C154DF7A2009DF3FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B82D4B154DF7A2009DF3FB /* Foundation.framework */; };
 		79B82D4E154DF7A2009DF3FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B82D4D154DF7A2009DF3FB /* CoreGraphics.framework */; };
@@ -25,9 +26,11 @@
 		79B82D7F154E199B009DF3FB /* screenshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D7E154E199B009DF3FB /* screenshot.jpg */; };
 		79B82D81154E2181009DF3FB /* manhattan.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D80154E2181009DF3FB /* manhattan.png */; };
 		79B82D83154E2E5A009DF3FB /* tokyo.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D82154E2E59009DF3FB /* tokyo.png */; };
+		79B82D85154E3FAE009DF3FB /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B82D84154E3FAE009DF3FB /* compass.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		797F30F8154E439B002EB3DD /* compass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compass@2x.png"; sourceTree = "<group>"; };
 		79B82D45154DF7A2009DF3FB /* Beautiful Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beautiful Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B82D49154DF7A2009DF3FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		79B82D4B154DF7A2009DF3FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,7 @@
 		79B82D7E154E199B009DF3FB /* screenshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screenshot.jpg; sourceTree = "<group>"; };
 		79B82D80154E2181009DF3FB /* manhattan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manhattan.png; sourceTree = "<group>"; };
 		79B82D82154E2E59009DF3FB /* tokyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tokyo.png; sourceTree = "<group>"; };
+		79B82D84154E3FAE009DF3FB /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,8 @@
 		79B82D77154E12FA009DF3FB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				79B82D84154E3FAE009DF3FB /* compass.png */,
+				797F30F8154E439B002EB3DD /* compass@2x.png */,
 				79B82D7E154E199B009DF3FB /* screenshot.jpg */,
 				79B82D78154E13C1009DF3FB /* dfw.png */,
 				79B82D80154E2181009DF3FB /* manhattan.png */,
@@ -226,6 +232,8 @@
 				79B82D7F154E199B009DF3FB /* screenshot.jpg in Resources */,
 				79B82D81154E2181009DF3FB /* manhattan.png in Resources */,
 				79B82D83154E2E5A009DF3FB /* tokyo.png in Resources */,
+				79B82D85154E3FAE009DF3FB /* compass.png in Resources */,
+				797F30F9154E439B002EB3DD /* compass@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +366,7 @@
 				79B82D6D154DF7A2009DF3FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
