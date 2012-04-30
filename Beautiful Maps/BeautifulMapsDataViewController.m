@@ -14,7 +14,6 @@
 
 @implementation BeautifulMapsDataViewController
 @synthesize imageView;
-@synthesize compassButton;
 
 - (void)viewDidLoad
 {
@@ -23,7 +22,6 @@
     NSString *city = [[self.dataObject description] lowercaseString];
     NSString *imageName = [NSString stringWithFormat:@"%@.png", city];
     self.imageView.image = [UIImage imageNamed:imageName];
-    [compassButton setShowsTouchWhenHighlighted:YES];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -36,9 +34,6 @@
     return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
 
-- (void)viewDidUnload {
-    [self setImageView:nil];
-    [self setCompassButton:nil];
-    [super viewDidUnload];
+- (IBAction)moreInfo:(id)sender {
 }
 @end
