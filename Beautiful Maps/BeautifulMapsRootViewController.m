@@ -25,7 +25,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     // Configure the page view controller and add it as a child view controller.
-    self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
+    self.pageViewController = [[UIPageViewController alloc]
+                initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl
+                  navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal
+                                options:nil];
     self.pageViewController.delegate = self;
 
     BeautifulMapsDataViewController *startingViewController = [self.modelController viewControllerAtIndex:0 storyboard:self.storyboard];
@@ -46,12 +49,26 @@
 
     // Add the page view controller's gesture recognizers to the book view controller's view so that the gestures are started more easily.
     self.view.gestureRecognizers = self.pageViewController.gestureRecognizers;
+    
+    // Need to override any taps that might happen to buttons in the view.
+    for (UIGestureRecognizer *recognizer in self.view.gestureRecognizers) {
+        // Just trust me, compiler.
+        recognizer.delegate = self;
+    }
 }
 
-- (void)viewDidUnload
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
+    // We need to cancel taps on the lower-right button.
+    if ([gestureRecognizer isKindOfClass:[UITapGestureRecognizer class]]) {
+        CGPoint touchPoint = [touch locationInView:self.view];
+        NSLog(@"%f, %f", touchPoint.x, touchPoint.y);
+        // Leave plenty of buffer space for the tap.
+        if (touchPoint.x >= 970.0 && touchPoint.y >= 720.0) {
+            return NO;
+        }
+    }
+    return YES;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

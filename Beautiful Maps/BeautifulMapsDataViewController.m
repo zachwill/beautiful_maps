@@ -35,5 +35,7 @@
 }
 
 - (IBAction)moreInfo:(id)sender {
+    return;
 }
+
 @end
