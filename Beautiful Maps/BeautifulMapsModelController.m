@@ -30,7 +30,7 @@
     self = [super init];
     if (self) {
         // Create the data model.
-        _pageData = @[ @"SF", @"Seoul", @"Manhattan", @"DFW" ];
+        _pageData = @[ @"SF", @"Seoul", @"Manhattan", @"Tokyo", @"DFW" ];
     }
     return self;
 }
