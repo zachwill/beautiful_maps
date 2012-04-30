@@ -90,13 +90,9 @@
 			children = (
 				79B82D58154DF7A2009DF3FB /* BeautifulMapsAppDelegate.h */,
 				79B82D59154DF7A2009DF3FB /* BeautifulMapsAppDelegate.m */,
-				79B82D5D154DF7A2009DF3FB /* BeautifulMapsRootViewController.h */,
-				79B82D5E154DF7A2009DF3FB /* BeautifulMapsRootViewController.m */,
-				79B82D60154DF7A2009DF3FB /* BeautifulMapsDataViewController.h */,
-				79B82D61154DF7A2009DF3FB /* BeautifulMapsDataViewController.m */,
-				79B82D63154DF7A2009DF3FB /* BeautifulMapsModelController.h */,
-				79B82D64154DF7A2009DF3FB /* BeautifulMapsModelController.m */,
-				79B82D66154DF7A2009DF3FB /* MainStoryboard.storyboard */,
+				79B82D75154E12D2009DF3FB /* Controllers */,
+				79B82D74154E12C0009DF3FB /* Model */,
+				79B82D76154E12E4009DF3FB /* View */,
 				79B82D50154DF7A2009DF3FB /* Supporting Files */,
 			);
 			path = "Beautiful Maps";
@@ -112,6 +108,42 @@
 				79B82D5B154DF7A2009DF3FB /* Beautiful Maps.entitlements */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79B82D74154E12C0009DF3FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79B82D63154DF7A2009DF3FB /* BeautifulMapsModelController.h */,
+				79B82D64154DF7A2009DF3FB /* BeautifulMapsModelController.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		79B82D75154E12D2009DF3FB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				79B82D5D154DF7A2009DF3FB /* BeautifulMapsRootViewController.h */,
+				79B82D5E154DF7A2009DF3FB /* BeautifulMapsRootViewController.m */,
+				79B82D60154DF7A2009DF3FB /* BeautifulMapsDataViewController.h */,
+				79B82D61154DF7A2009DF3FB /* BeautifulMapsDataViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		79B82D76154E12E4009DF3FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79B82D66154DF7A2009DF3FB /* MainStoryboard.storyboard */,
+				79B82D77154E12FA009DF3FB /* Images */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		79B82D77154E12FA009DF3FB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

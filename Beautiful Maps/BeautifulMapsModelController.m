@@ -30,8 +30,7 @@
     self = [super init];
     if (self) {
         // Create the data model.
-        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-        _pageData = [[dateFormatter monthSymbols] copy];
+        _pageData = @[ @"DFW", @"SF", @"Seoul" ];
     }
     return self;
 }
